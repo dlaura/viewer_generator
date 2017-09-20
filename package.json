@@ -1,0 +1,25 @@
+{
+  "name": "viewer_generator",
+  "version": "1.0.0",
+  "description": "Dynamic Preview Viewer for projects in folder structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlaura/viewer_generator.git"
+  },
+  "keywords": [
+    "node",
+    "file",
+    "viewer",
+    "js"
+  ],
+  "author": "Diana Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlaura/viewer_generator/issues"
+  },
+  "homepage": "https://github.com/dlaura/viewer_generator#readme"
+}
