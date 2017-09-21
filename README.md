@@ -16,3 +16,11 @@
 * $ npm install
 
 * $ npm start
+
+//Running script
+
+* URL: http://localhost:8000/
+
+// Static html
+
+* index.html

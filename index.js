@@ -39,7 +39,7 @@ Filehound.create()
         webshot( 'http://localhost:8000/'+ element,'images/'+ element +'_1024x768.jpg', options, function (err) {
           // screenshot now saved
         });
-          foundHtml.push('<article><a title= "'+ element +'"  target="_blank" href="'+ element + ' ">' + element + ' </a><br><img src="/images/'+ element +'_1024x768.jpg" alt="'+element+'"></article>');
+          foundHtml.push('<article><a title= "'+ element +'"  target="_blank" href="'+ element + ' ">' + element + ' </a><br><img src="images/'+ element +'_1024x768.jpg" alt="'+element+'"></article>');
     });
 
 
