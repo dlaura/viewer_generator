@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<%@ Language="JavaScript" %>
+<!-- #include virtual="/_scripts/_tracking.asp" -->
+<!-- #include virtual="/usc/_include/uscGlobals.asp" -->
+<%
+Response.Expires = -1;
+
+var szDefaultBTData = "GVJ.B.gAAAf.J.UL.KbGP.KML.iTq.E";
+TrackSplash( szDefaultBTData );
+
+var szURL = "/usc/_bt_appredir.asp";
+
+//==============================================================
+//== Navigation Links
+var pHome = new Parameters( "/usc/rpg/Dining/Home/default.htm", null );
+	pHome.AddQS();
+
+var pExclusiveExperiences = new Parameters( "/usc/rpg/Dining/Events/default.htm", null );
+	pExclusiveExperiences.AddQS();
+	
+var pFoodOnAllTables = new Parameters( "/usc/rpg/Dining/Gardens/default.htm", null );
+	pFoodOnAllTables.AddQS();
+	
+var pNoKidHungry = new Parameters( "/usc/rpg/Dining/NoKidHungry/default.htm", null );
+	pNoKidHungry.AddQS();
+	
+var pCitiGardens = new Parameters( "/usc/rpg/Dining/CitiGardens/default.htm", null );
+	pCitiGardens.AddQS();
+	
+var pDiningMadeEasy = new Parameters( "/usc/rpg/Dining/Home/default.htm?#dining-made-easy", null );
+	pDiningMadeEasy.AddQS();
+
+%>
+<!--[if IE 9 ]><html class="gardens citi-gardens ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="gardens citi-gardens"><!--<![endif]-->
+  <head>
+    <title>CITI</title>
+    <meta charset="utf-8">
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+   
+    <link rel="stylesheet" href="css/citi.css">
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+	<style>html{display : none ; }</style>
+	<script language="javascript">
+	if( self == top ) {
+	document.documentElement.style.display = 'block' ;
+	} else {
+	top.location = self.location ;
+	}
+	</script>
+  </head>
+  <body>
+    <header id="global-header"><a class="logo">citi</a><a href="#" class="toggle">menu</a>
+      <nav id="main-nav"><a href="<%= pHome.GetStringURL() %>">Home</a>
+    <a href="<%= pExclusiveExperiences.GetStringURL() %>">Exclusive Experiences</a>
+    <a href="<%= pFoodOnAllTables.GetStringURL() %>">Food on All Tables</a>
+    <a href="<%= pNoKidHungry.GetStringURL() %>">No Kid Hungry</a>
+    <a href="<%= pCitiGardens.GetStringURL() %>" class="active">Citi Gardens</a>
+    <a href="<%= pDiningMadeEasy.GetStringURL() %>">Dining Made Easy</a>
+      </nav>
+    </header>
+    
+    <article class="intro">
+      <figure><img data-lazy-mobile-src="img/gardens/header-mbl.jpg" data-lazy-tablet-src="img/gardens/header-tbl.jpg" data-lazy-desktop-src="img/gardens/header.jpg" alt=""></figure>
+      <div>
+        <h2 class="logo">CITI Table</h2>
+        <h1>GROWING HEALTHY FUTURES</h1>
+        <p>Good nutrition is an essential building block for a healthy life. Through the Citi Gardens<sup>SM</sup> initiative, Citi is helping to increase access to fresh, affordable food and nutrition education in neighborhoods facing food insecurity. Our goal is to have a long-term, positive impact in these communities.</p>
+      </div>
+      <nav><span>Jump To</span><a href="#welcome"><span>welcome to<br /> citi gardens</span></a><a href="#miami"><span>citi gardens<br /> miami</span></a><a href="#los-angeles"><span>citi gardens<br /> los angeles</span></a></nav>
+    </article>
+    <section class="welcome"><a name="welcome"></a>
+      <header>
+        <h2>WELCOME TO CITI GARDENS<sup>SM</sup></h2>
+
+        <p>By putting gardens in communities across the U.S. where they’re needed most, we’re literally tackling the problem of food access from the ground up. </p>
+      </header>
+      <article class="light">
+        <figure><img data-lazy-mobile-src="img/gardens/welcome-01-mbl.jpg" data-lazy-tablet-src="img/gardens/welcome-01-tbl.jpg" data-lazy-desktop-src="img/gardens/welcome-01.jpg" alt=""></figure>
+        <div>
+          <blockquote>
+            <p>"The garden is an opportunity to teach students about science, nutrition and cooking, and to provide fresh food for meals and snacks."</p>
+            <footer>— Judy Burton, President and CEO of the Alliance College-Ready Public Schools</footer>
+          </blockquote>
+        </div>
+      </article>
+    </section>
+    <section class="more">
+      <article class="dark full">
+        <h3>more access</h3>
+        <p>Children and families have more access to fresh produce, right from the garden. Students will help plant and harvest fresh produce, and taste the results. For some of them, it may be their first time trying a variety of fruits and vegetables.</p>
+      </article>
+      <article class="dark full">
+        <h3>more education</h3>
+        <p>We’re helping kids learn the benefits of growing their own food and understand the importance of wholesome meals. Cooking demonstrations and hands-on learning can help change eating habits for life.</p>
+      </article>
+      <article class="dark full">
+        <h3>more community</h3>
+        <p>Kids, families and community residents are getting involved in Citi Gardens, developing a deeper appreciation of fresh fruits and vegetables and coming together to learn about good nutrition.</p>
+      </article>
+    </section>
+    <section><a name="miami"></a>
+      <header>
+        <h2>sowing brighter futures in miami</h2>
+        <p>51 gardens designed to improve students’ nutrition knowledge and eating patterns.</p>
+      </header>
+      <article class="light hidden"></article>
+      <article class="light gallery full miami all-breakpoints">
+        <ul>
+          <li class="active">
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-01-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-01-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-01.jpg" alt=""></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-04-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-04-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-04.jpg" alt=""></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-02-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-02-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-02.jpg" alt=""></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-05-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-05-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-05.jpg" alt=""></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-03-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-03-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-03.jpg" alt=""></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-06-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-06-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-06.jpg" alt=""></figure>
+          </li>
+        </ul>
+        <div class="nav"><a href="#" title="view image #1" class="button active">1</a><a href="#" title="view image #2" class="button">2</a><a href="#" title="view image #3" class="button">3</a><a href="#" title="view image #4" class="button">4</a><a href="#" title="view image #5" class="button">5</a><a href="#" title="view image #6" class="button">6</a><a href="#" title="view previous" class="prev">previous</a><a href="#" title="view next" class="next">next</a></div>
+        <div>
+          <h3>CITI GARDENS <em>MIAMI</em> grown with<br />the education fund</h3>
+          <p>We're proud to announce we're now growing gardens in 51 schools across Miami-Dade County, many in neighborhoods designated as food deserts due to the lack of access to fresh food. Through our partnership with <nobr>The Education Fund</nobr>, food forests will be popping up in these schools, giving students access to fresh produce in school and enough to share the harvest around their tables at home.</p>
+        </div>
+      </article>
+    </section>
+    <section><a name="los-angeles"></a>
+      <header>
+        <h2>planting change in<br /> los angeles</h2>
+        <p>A community hub for health, outdoor activity and learning.</p>
+      </header>
+      <article class="light gallery full los-angeles all-breakpoints">
+
+        <ul class="slide">
+          <li>
+           <a class="video-play" ><img data-lazy-mobile-src="img/gardens/gallery-la01-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la01-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la01.jpg" alt=""></a>
+          </li>
+          <li>
+           <img data-lazy-mobile-src="img/gardens/gallery-la02-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la02-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la02.jpg" alt="">
+          </li>
+          <li>
+            <img data-lazy-mobile-src="img/gardens/gallery-la03-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la03-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la03.jpg" alt="">
+          </li>
+          <li>
+            <img data-lazy-mobile-src="img/gardens/gallery-la04-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la04-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la04.jpg" alt="">
+          </li>
+        </ul>
+        <!-- <ul>
+          <li class="active">
+            <figure><a class="video-play" ><img data-lazy-mobile-src="img/gardens/gallery-la01-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la01-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la01.jpg" alt=""></a></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-la02-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la02-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la02.jpg" alt=""></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-la03-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la03-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la03.jpg" alt=""></figure>
+          </li>
+          <li>
+            <figure><img data-lazy-mobile-src="img/gardens/gallery-la04-mbl.jpg" data-lazy-tablet-src="img/gardens/gallery-la04-tbl.jpg" data-lazy-desktop-src="img/gardens/gallery-la04.jpg" alt=""></figure>
+          </li>
+        </ul> -->
+        <div class="nav"><!-- <a href="#" title="view image #1" class="button active">1</a><a href="#" title="view image #2" class="button">2</a><a href="#" title="view image #3" class="button">3</a><a href="#" title="view image #4" class="button">4</a><a href="#" title="view previous" class="prev">previous</a><a href="#" title="view next" class="next">next</a> --></div>
+        <div>
+          <h3>CITI GARDENS <br /><em>los angeles</em></h3>
+          <p>Our flagship Citi Gardens initiative was grown in partnership with the Alliance College-Ready Public Schools in South Los Angeles and the Low Income Investment Fund (LIIF). Students and families have access to fresh produce from our 4,000-square-foot garden, plus hands-on learning about eating well – lessons that last a lifetime. We also sponsored a new athletic field that serves as a place to play and exercise – building lifelong healthy habits.</p>
+        </div>
+      </article>
+    </section>
+    <section><a name="grow-something"></a>
+      <article class="light grow full">
+        <figure><img data-lazy-mobile-src="img/gardens/grow-mbl.jpg" data-lazy-tablet-src="img/gardens/grow-tbl.jpg" data-lazy-desktop-src="img/gardens/grow.jpg" alt=""></figure>
+        <div>
+          <h3>Let's Grow Something Good Together</h3>
+          <p>By working with these schools, students, families and nonprofits, we're helping to put food on more tables in these communities. Another reason to feel good about being a Citi<sup>&reg;</sup> cardmember.</p>
+        </div>
+      </article>
+      <article class="partners single">
+        <div>
+          <h4>Citi is proud to partner with:</h4><a title="The Education Fund"><img data-lazy-mobile-src="img/gardens/partner-01-mbl.jpg" data-lazy-tablet-src="img/gardens/partner-01-tbl.jpg" data-lazy-desktop-src="img/gardens/partner-01.jpg" alt="The Education Fund"></a><a title="Capital for healty families &amp;amp; communities"><img data-lazy-mobile-src="img/gardens/partner-02-mbl.jpg" data-lazy-tablet-src="img/gardens/partner-02-tbl.jpg" data-lazy-desktop-src="img/gardens/partner-02.jpg" alt="capital for healty families &amp;amp; communities"></a><a title="Alliance, college-ready public schools. Where exceptional is the rule"><img data-lazy-mobile-src="img/gardens/partner-03-mbl.jpg" data-lazy-tablet-src="img/gardens/partner-03-tbl.jpg" data-lazy-desktop-src="img/gardens/partner-03.jpg" alt="Alliance, college-ready public schools. Where exceptional is the rule"></a>
+        </div>
+      </article>
+    </section>
+    
+        <footer id="global-footer">
+          <nav>
+		  <a href="http://www.citi.com" title="visit citi.com" class="citi">CITI.COM</a>
+		  <a href="https://online.citibank.com/US/JRS/portal/template.do?ID=TermsDisclaimer" target="_blank" title="terms &amp;amp; conditions">TERMS &amp; CONDITIONS</a>
+		  <a href="https://online.citibank.com/US/JRS/portal/template.do?ID=Privacy" target="_blank" title="privacy">PRIVACY</a>
+          </nav>
+          <p class="copyright">&copy;<%=glblYearOnly%> Citibank, N.A. Citi, Citibank, Citi with Arc Design, Citi Table and Citi Gardens are registered service marks of Citigroup Inc. All rights reserved.<br />
+            <!-- | <span>&copy;2015 TabbedOut. All rights reserved.</span>-->
+          </p>
+        </footer>
+        <div id="warning"><a href="#" class="close">close</a>
+          <h3>Important Information</h3>
+          <p>You are leaving a Citigroup website and will be going to a website operated by a third party. <br /> <br /> That site may have a privacy policy different from Citi and may provide less security than this Citi site. Citi and its affiliates are not responsible for the products, services and content on a third-party website. Do you wish to continue to the third-party site?</p><a href="#" rel="external" class="redirect">Continue ›</a>
+        </div>
+        <div id="video"><a href="#" class="close">close</a>
+          <div class="wrapper">
+            <video id="video-source" controls preload="auto" width="100%" height="auto" class="vjs-default-skin">
+              <source src="https://citi.bridgetrack.com/hosted/?BTDATA=Dik.B.gABgf.J.BGr.BSVP.aka.KWe.PT.tv.E&_FN=108826.mp4" type="video/mp4">
+              <source src="https://citi.bridgetrack.com/hosted/?BTDATA=LJi.B.gABgf.J.BGr.BSVP.akc.KWe.PT.tv.E&_FN=108828.webm" type="video/webm">
+              <source src="https://citi.bridgetrack.com/hosted/?BTDATA=PcB.B.gABgf.J.BGr.BSVP.akb.KWe.PT.tv.E&_FN=108827.ogg" type="video/ogg">
+            </video>
+          </div>
+        </div>
+    <script src="js/lib.js"></script>
+    <script src="js/citi.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+    <script>
+    $('ul.slide').slick({
+       arrows: true,
+       dots: true,
+       infinite: true,
+       slidesToShow: 1,
+       slide: 'li',
+       speed: 1000,
+       autoplay: true,
+       autoplaySpeed: 7000,
+    });
+    </script>
+	
+<script>document.write('<s'+'cript language="JavaScript" src="//view.atdmt.com/jaction/TBD"></s'+'cript>')</script>
+<noscript><iframe src="//view.atdmt.com/iaction/TBD" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe></noscript>
+<%
+var szEnvServer	= new String(Request.ServerVariables( "SERVER_NAME")).toLowerCase();
+var SiteCatalystAccNo = null;
+
+// 'Server Environment Detection - UAT vs. CITI_UAT vs. Production 
+var bIsTesting	= (szEnvServer == "localhost") || (szEnvServer.substr(0,4) == "172.") || (szEnvServer == "citi-preview.bridgetrack.com")
+
+	// set default
+	SiteCatalystAccNo = 'citinaprod';	// Default Production Account
+	
+	if ( bIsTesting )
+		SiteCatalystAccNo = 'citinadev';  // 'Test Account
+
+%>
+<!-- SiteCatalyst code version: H.24.4. (non CBOL version)
+Copyright 1996-2011 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+s_account="<%=SiteCatalystAccNo%>";//ACCOUNT NUMBER(S)
+</SCRIPT>
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript" src="/usc/_include/SiteCatalyst_2011/s_code_vendor_v53.js"></SCRIPT>
+<!-- You may give each page an identifying name, server, and channel on the next lines. -->
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+s.pageName="USC_Citi_Dining_Table_Citi_Gardens";//PAGE NAME(S)
+s.channel="CARDSPublic"
+s.prop1="Sapient";
+s.prop2="CitiTable";
+s.hier1 = s.channel +"/"+ s.prop1 +"/"+ s.prop2;
+
+s.linkTrackVars="prop46,prop47,prop48,prop49,eVar20,pageName"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! ************/
+var s_code=s.t();if(s_code)document.write(s_code)
+</SCRIPT>
+<!-- End SiteCatalyst code version: H.24.4. -->
+  </body>
+</html>

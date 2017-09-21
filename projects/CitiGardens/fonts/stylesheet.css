@@ -1,0 +1,381 @@
+/*******************/
+/* INTERSTATE BOLD */
+/*******************/
+
+@font-face {
+    font-family: 'interstate-bold';
+    src: url('interstate-bold-webfont.eot');
+    src: url('interstate-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-bold-webfont.woff') format('woff'),
+         url('interstate-bold-webfont.ttf') format('truetype'),
+         url('interstate-bold-webfont.svg#interstate-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-boldcompressed';
+    src: url('interstate-boldcompressed-webfont.eot');
+    src: url('interstate-boldcompressed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-boldcompressed-webfont.woff') format('woff'),
+         url('interstate-boldcompressed-webfont.ttf') format('truetype'),
+         url('interstate-boldcompressed-webfont.svg#interstate-boldcompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-boldcond';
+    src: url('interstate-boldcond-webfont.eot');
+    src: url('interstate-boldcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-boldcond-webfont.woff') format('woff'),
+         url('interstate-boldcond-webfont.ttf') format('truetype'),
+         url('interstate-boldcond-webfont.svg#interstate-boldcond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-bolditalic';
+    src: url('interstate-bolditalic-webfont.eot');
+    src: url('interstate-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-bolditalic-webfont.woff') format('woff'),
+         url('interstate-bolditalic-webfont.ttf') format('truetype'),
+         url('interstate-bolditalic-webfont.svg#interstate-bolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**********************/
+/* INTERSTATE REGULAR */
+/**********************/
+
+@font-face {
+    font-family: 'interstateregular';
+    src: url('interstate-regular-webfont.eot');
+    src: url('interstate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-regular-webfont.woff') format('woff'),
+         url('interstate-regular-webfont.ttf') format('truetype'),
+         url('interstate-regular-webfont.svg#interstateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-regularcomp';
+    src: url('interstate-regularcomp-webfont.eot');
+    src: url('interstate-regularcomp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-regularcomp-webfont.woff') format('woff'),
+         url('interstate-regularcomp-webfont.ttf') format('truetype'),
+         url('interstate-regularcomp-webfont.svg#interstate-regularcomp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-regularcompressed';
+    src: url('interstate-regularcompressed-webfont.eot');
+    src: url('interstate-regularcompressed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-regularcompressed-webfont.woff') format('woff'),
+         url('interstate-regularcompressed-webfont.ttf') format('truetype'),
+         url('interstate-regularcompressed-webfont.svg#interstate-regularcompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-regularcond';
+    src: url('interstate-regularcond-webfont.eot');
+    src: url('interstate-regularcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-regularcond-webfont.woff') format('woff'),
+         url('interstate-regularcond-webfont.ttf') format('truetype'),
+         url('interstate-regularcond-webfont.svg#interstate-regularcond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'interstate-regularcondensed';
+    src: url('interstate-regularcondensed-webfont.eot');
+    src: url('interstate-regularcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-regularcondensed-webfont.woff') format('woff'),
+         url('interstate-regularcondensed-webfont.ttf') format('truetype'),
+         url('interstate-regularcondensed-webfont.svg#interstate-regularcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*******************/
+/* INTERSTATE THIN */
+/*******************/
+
+@font-face {
+    font-family: 'interstate-thin';
+    src: url('interstate-thin-webfont.eot');
+    src: url('interstate-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-thin-webfont.woff') format('woff'),
+         url('interstate-thin-webfont.ttf') format('truetype'),
+         url('interstate-thin-webfont.svg#interstate-thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'interstate-thincondensed';
+    src: url('interstate-thincondensed-webfont.eot');
+    src: url('interstate-thincondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-thincondensed-webfont.woff') format('woff'),
+         url('interstate-thincondensed-webfont.ttf') format('truetype'),
+         url('interstate-thincondensed-webfont.svg#interstate-thincondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'interstate-thinitalic-';
+    src: url('interstate-thinitalic-webfont.eot');
+    src: url('interstate-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-thinitalic-webfont.woff') format('woff'),
+         url('interstate-thinitalic-webfont.ttf') format('truetype'),
+         url('interstate-thinitalic-webfont.svg#interstate-thinitalic-') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/********************/
+/* INTERSTATE BLACK */
+/********************/
+
+@font-face {
+    font-family: 'interstate-black';
+    src: url('interstate-black-webfont.eot');
+    src: url('interstate-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-black-webfont.woff') format('woff'),
+         url('interstate-black-webfont.ttf') format('truetype'),
+         url('interstate-black-webfont.svg#interstate-black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-blackcompressed';
+    src: url('interstate-blackcompressed-webfont.eot');
+    src: url('interstate-blackcompressed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-blackcompressed-webfont.woff') format('woff'),
+         url('interstate-blackcompressed-webfont.ttf') format('truetype'),
+         url('interstate-blackcompressed-webfont.svg#interstate-blackcompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-blackcondensed';
+    src: url('interstate-blackcondensed-webfont.eot');
+    src: url('interstate-blackcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-blackcondensed-webfont.woff') format('woff'),
+         url('interstate-blackcondensed-webfont.ttf') format('truetype'),
+         url('interstate-blackcondensed-webfont.svg#interstate-blackcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-blackitalic';
+    src: url('interstate-blackitalic-webfont.eot');
+    src: url('interstate-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-blackitalic-webfont.woff') format('woff'),
+         url('interstate-blackitalic-webfont.ttf') format('truetype'),
+         url('interstate-blackitalic-webfont.svg#interstate-blackitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/************************************/
+/* INTERSTATE LIGHT AND EXTRA LIGHT */
+/************************************/
+
+@font-face {
+    font-family: 'interstate-light';
+    src: url('interstate-light-webfont.eot');
+    src: url('interstate-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-light-webfont.woff') format('woff'),
+         url('interstate-light-webfont.ttf') format('truetype'),
+         url('interstate-light-webfont.svg#interstate-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-lightcomp';
+    src: url('interstate-lightcomp-webfont.eot');
+    src: url('interstate-lightcomp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-lightcomp-webfont.woff') format('woff'),
+         url('interstate-lightcomp-webfont.ttf') format('truetype'),
+         url('interstate-lightcomp-webfont.svg#interstate-lightcomp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'interstate-lightcond';
+    src: url('interstate-lightcond-webfont.eot');
+    src: url('interstate-lightcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-lightcond-webfont.woff') format('woff'),
+         url('interstate-lightcond-webfont.ttf') format('truetype'),
+         url('interstate-lightcond-webfont.svg#interstate-lightcond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-lightitalic';
+    src: url('interstate-lightitalic-webfont.eot');
+    src: url('interstate-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-lightitalic-webfont.woff') format('woff'),
+         url('interstate-lightitalic-webfont.ttf') format('truetype'),
+         url('interstate-lightitalic-webfont.svg#interstate-lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-extralight';
+    src: url('interstate-extralight-webfont.eot');
+    src: url('interstate-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-extralight-webfont.woff') format('woff'),
+         url('interstate-extralight-webfont.ttf') format('truetype'),
+         url('interstate-extralight-webfont.svg#interstate-extralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-extralightcomp';
+    src: url('interstate-extralightcomp-webfont.eot');
+    src: url('interstate-extralightcomp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-extralightcomp-webfont.woff') format('woff'),
+         url('interstate-extralightcomp-webfont.ttf') format('truetype'),
+         url('interstate-extralightcomp-webfont.svg#interstate-extralightcomp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-extralightcond';
+    src: url('interstate-extralightcond-webfont.eot');
+    src: url('interstate-extralightcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-extralightcond-webfont.woff') format('woff'),
+         url('interstate-extralightcond-webfont.ttf') format('truetype'),
+         url('interstate-extralightcond-webfont.svg#interstate-extralightcond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-extralightitalic';
+    src: url('interstate-extralightitalic-webfont.eot');
+    src: url('interstate-extralightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-extralightitalic-webfont.woff') format('woff'),
+         url('interstate-extralightitalic-webfont.ttf') format('truetype'),
+         url('interstate-extralightitalic-webfont.svg#interstate-extralightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/***********************/
+/* INTERSTATE HAIRLINE */
+/***********************/
+
+@font-face {
+    font-family: 'interstate-hairline';
+    src: url('interstate-hairline-webfont.eot');
+    src: url('interstate-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-hairline-webfont.woff') format('woff'),
+         url('interstate-hairline-webfont.ttf') format('truetype'),
+         url('interstate-hairline-webfont.svg#interstate-hairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-hairlinecondensed';
+    src: url('interstate-hairlinecondensed-webfont.eot');
+    src: url('interstate-hairlinecondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-hairlinecondensed-webfont.woff') format('woff'),
+         url('interstate-hairlinecondensed-webfont.ttf') format('truetype'),
+         url('interstate-hairlinecondensed-webfont.svg#interstate-hairlinecondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-hairlineitalic';
+    src: url('interstate-hairlineitalic-webfont.eot');
+    src: url('interstate-hairlineitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-hairlineitalic-webfont.woff') format('woff'),
+         url('interstate-hairlineitalic-webfont.ttf') format('truetype'),
+         url('interstate-hairlineitalic-webfont.svg#interstate-hairlineitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**************************/
+/* INTERSTATE ULTRA-BLACK */
+/**************************/
+
+@font-face {
+    font-family: 'interstate-ultrablack';
+    src: url('interstate-ultrablack-webfont.eot');
+    src: url('interstate-ultrablack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-ultrablack-webfont.woff') format('woff'),
+         url('interstate-ultrablack-webfont.ttf') format('truetype'),
+         url('interstate-ultrablack-webfont.svg#interstate-ultrablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-ultrablackcomp';
+    src: url('interstate-ultrablackcomp-webfont.eot');
+    src: url('interstate-ultrablackcomp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-ultrablackcomp-webfont.woff') format('woff'),
+         url('interstate-ultrablackcomp-webfont.ttf') format('truetype'),
+         url('interstate-ultrablackcomp-webfont.svg#interstate-ultrablackcomp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-ultrablackcond';
+    src: url('interstate-ultrablackcond-webfont.eot');
+    src: url('interstate-ultrablackcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-ultrablackcond-webfont.woff') format('woff'),
+         url('interstate-ultrablackcond-webfont.ttf') format('truetype'),
+         url('interstate-ultrablackcond-webfont.svg#interstate-ultrablackcond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-ultrablackitalic';
+    src: url('interstate-ultrablackitalic-webfont.eot');
+    src: url('interstate-ultrablackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('interstate-ultrablackitalic-webfont.woff') format('woff'),
+         url('interstate-ultrablackitalic-webfont.ttf') format('truetype'),
+         url('interstate-ultrablackitalic-webfont.svg#interstate-ultrablackitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
