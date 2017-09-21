@@ -5,7 +5,6 @@ const Filehound = require('filehound');
 var http = require('http');
 var finalhandler = require('finalhandler');
 var serveStatic = require('serve-static');
-
 var serve = serveStatic("./");
 
 var server = http.createServer(function(req, res) {
@@ -17,11 +16,10 @@ server.listen(8000);
 
 var foundHtml = [];
 Filehound.create()
-  .ext('htm')
+  .ext('html')
   .paths("projects/")
   .find((err, htmlFiles) => {
     if (err) return console.error("handle err", err);
-
 
     // Screenshots
     htmlFiles.forEach(function(element) {
@@ -46,12 +44,12 @@ Filehound.create()
 
 
     // Filehound is asyncronous
-    var bodyContent = '<section><p>Projects</p><br><span>' + foundHtml + '</span> </section>';
+    var bodyContent = '<section><p>Projects in Folder</p><br><span>' + foundHtml + '</span> </section>';
     var html = createHTML({
       title: 'Project Index',
       script: 'index.js',
       scriptAsync: true,
-      css: 'normalize.css',
+      css: 'style.css',
       lang: 'en',
       dir: 'rtl',
       head: '<meta name="description" content="Projects List">',
